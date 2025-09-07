@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-08T00:20:04 IST" name="Finance Calculators Automation Suite" finished-at="2025-09-08T00:22:57 IST" duration-ms="173141">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-08T00:20:04 IST" name="Finance Calculator Tests" finished-at="2025-09-08T00:22:57 IST" duration-ms="173141">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:20:04 IST" name="setUpClass" finished-at="2025-09-08T00:20:05 IST" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58ebee9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:20:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:20:40 IST" duration-ms="35427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Car Loan EMI Calculator Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Loan EMI Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:20:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:20:50 IST" duration-ms="10080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Gratuity Fund Calculator Positive Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gratuity Fund Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:20:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:21:19 IST" duration-ms="28272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Gratuity Fund Calculator Negative Test - Salary Zero"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Gratuity Fund Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:21:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:21:25 IST" duration-ms="6815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["PF Calculator Positive Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PF Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:21:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:21:33 IST" duration-ms="7373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["PF Calculator Negative Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PF Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:21:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:22:08 IST" duration-ms="35536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Personal Loan Calculator Positive Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Personal Loan Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:22:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-08T00:22:56 IST" duration-ms="48107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Personal Loan Calculator Negative Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Personal Loan Calculator Automation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:22:56 IST" name="tearDown" finished-at="2025-09-08T00:22:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@7530ad9c]" started-at="2025-09-08T00:22:56 IST" name="tearDownClass" finished-at="2025-09-08T00:22:57 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Finance Calculator Tests -->
+  </suite> <!-- Finance Calculators Automation Suite -->
+</testng-results>
