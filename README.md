@@ -28,8 +28,7 @@ This project automates the testing of various **finance calculators** on [MoneyC
 1. **Clone the repository:**
 
 ```bash
-[git clone https://github.com/<username>/<repo>.git
-cd <repo>](https://github.com/NihalThomas/Money-Control-Automation.git)
+git clone https://github.com/NihalThomas/Money-Control-Automation.git
 ```
 
 2. **Install dependencies (Maven):**
